@@ -1,0 +1,53 @@
+.box-head {
+    color: purple;
+    background-color: beige;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px
+}
+
+img {
+    border: 30px solid rgb(99, 76, 67);
+    width: 300px;
+    margin: 20px auto
+}
+
+.main-border {
+    border: 20px solid black;
+    width: 600px;
+    height: 400x;
+    margin: 50px auto;
+}
+
+
+.container {
+    width: 600px;
+    height: 6x;
+    margin: 20px auto;
+    border: 15px solid black;
+}
+
+/* positioning imgages in css right and left will need auto property */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+}
+
+/* Set background colors for different elements: */
+
+body {
+    background-color: #bbb465;
+}
+
+/* example but h1 is being oiverwritten by .box head selector */
+h1 {
+    background-color: #6bac22;
+}
+
+div {
+    background-color: #d5f4e6;
+}
