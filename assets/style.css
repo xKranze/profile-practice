@@ -1,8 +1,8 @@
 .box-head {
     color: purple;
     background-color: beige;
-    padding-bottom: 40px;
-    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 50px
@@ -14,11 +14,12 @@ img {
     margin: 20px auto
 }
 
+/* centering img Whatever width you choose, the image will need to have equal left and right margins. You can achieve this easily by giving the margin property a value of auto:
+ */
 .main-border {
     border: 20px solid black;
-    width: 600px;
-    height: 400x;
-    margin: 50px auto;
+    width: 700px;
+    margin: 0px auto;
 }
 
 
@@ -34,7 +35,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 350px;
+    width: 250px;
 }
 
 /* Set background colors for different elements: */
