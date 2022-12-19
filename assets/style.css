@@ -1,25 +1,27 @@
 .box-head {
     color: purple;
     background-color: beige;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-top: 40px;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 50px
+    font-size: 50px;
+    display: block;
+
 }
 
 img {
     border: 30px solid rgb(99, 76, 67);
     width: 300px;
-    margin: 20px auto
+
 }
 
-/* centering img Whatever width you choose, the image will need to have equal left and right margins. You can achieve this easily by giving the margin property a value of auto:
- */
 .main-border {
     border: 20px solid black;
-    width: 700px;
-    margin: 0px auto;
+    width: 600px;
+    height: 400x;
+    margin: 50px auto;
+
 }
 
 
@@ -35,13 +37,13 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 250px;
+    width: 350px;
 }
 
 /* Set background colors for different elements: */
 
 body {
-    background-color: #bbb465;
+    background-image: url(./background.jpg)
 }
 
 /* example but h1 is being oiverwritten by .box head selector */
@@ -49,6 +51,24 @@ h1 {
     background-color: #6bac22;
 }
 
-div {
-    background-color: #d5f4e6;
+/* * {
+ background-color: darkolivegreen;   
+} */
+
+.click {
+    display: inline-block;
+    font-size: 25px;
+    background-color: white;
+    left: 150px;
+    text-align: center;
+}
+
+.border {
+    border: 30px solid rgb(99, 76, 67);
+    background-color: khaki;
+}
+
+header,
+h2 {
+    text-align: center;
 }
